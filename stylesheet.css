@@ -1,0 +1,222 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+
+html, body{
+  height:100%;  
+  width: 100%;
+}
+
+#background-img {
+    height:100%;  
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    overflow-x:hidden; 
+    background-image: url("images/dinner.gif");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
+
+p {
+    font-family: Titillium Web, Helvetica;
+    font-size: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+img {
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  width: 160px;
+  height: 200px;  
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.clickDish {
+  padding: 0px;
+  margin: 10px;
+  width: 170px;
+  height: 300px;
+}
+
+.container{
+  height:100%;
+  width:100%;
+  margin:0px;
+  padding:0px;
+  color: black;
+}
+
+.row{
+  height: 100%; 
+}
+
+.page-title{
+  padding: 50px  9999px;
+  background: #FED766;
+  margin: 0 -9999px;
+  margin-bottom: 10px; 
+ /* border-bottom: 2px solid white;*/
+  opacity: 0.7;
+  font-family: Titillium Web, Helvetica;
+}
+
+.page-title>h1{
+  color: white;
+  margin-left: 15px;
+  text-transform: uppercase;
+  font-family: Titillium Web;
+  font-size: 70px;
+  margin-left: 15px;
+}
+
+.page-title>h1>small{
+  color: white;
+  margin-left: 20px;
+  font-size: 25px;
+  font-style: italic;
+  text-transform: capitalize;
+  font-family: Titillium Web, Helvetica;
+}
+
+#welcomeBox{
+  width: 400px;
+  height: 350px;
+  background-color: white;
+  opacity: 0.8;
+  color: white;
+  margin-left: 50px;
+}
+
+#welcomeBox>h2{
+    font-size: 25px;
+  text-align: center;
+  padding-top: 40px;
+}
+ .line-separator{
+    height: 1px;
+    width:300px;
+    margin-bottom: 20px;
+    margin-left: 50px;  
+    overflow: hidden;
+    background-color: white;
+}
+
+.yellowButton {
+  background-color: #FED766;
+  font-size: 16pt;
+  font-family: Titillium Web, Helvetica;
+  box-shadow: 3px 3px 2px black;
+  border: 2px solid black;
+  width: 200px;
+  height: auto;
+  margin-left: 50px;
+}
+
+#welcomeScreen{
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+#welcomeBox{
+  width: 600px;
+  height: 350px;
+  background-color: white;
+  opacity: 0.8;
+  color:black;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#welcomeBox>h2{
+    font-size: 25px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+
+ .line-separator{
+    height: 1px;
+    width:300px;
+    margin-bottom: 20px;
+    margin-left: 50px;  
+    overflow: hidden;
+    background-color: white;
+}
+
+
+
+.menu-table{
+  margin-top:100px;
+}
+
+.menu-table th{
+  color: black;
+  background-color: white;
+  border-color: black;
+}
+
+.number-of-guests{
+  padding:0px;
+}
+
+#left-column{
+      background-color:white;
+      border-left: 2px solid;
+      border-right: 2px solid;
+      height: 100%;
+      width: 25%;
+    }
+
+h2 {
+  font-family: Titillium Web, Helvetica;
+}
+
+#ingredientList {
+  background: #FED766;
+  border-style: solid;
+  border-width: 5px;
+  padding: 20px;
+}
+
+.myDinnerList {
+   background: #FED766;
+   height: 50px;
+   font-size: 30px;
+   line-height: 50px;
+   font-family: Titillium Web, Helvetica;
+   vertical-align: center;
+   padding-left: 20px;
+}
+
+#totalCost {
+  text-align: right;
+  font-size: 200%;
+  margin-left: 100px;
+}
+
+
+.allCostDishes {
+  padding:40px;
+  vertical-align:bottom; 
+}
+
+.cost {
+  color: red;
+  text-align: left;
+  font-size: 150%;
+}
+
+#dish {
+  vertical-align:center; 
+}
+
+.dishImage {
+  margin-top: 10px;  
+}
+
+.loading {
+  font-size: 40px;
+}
